@@ -1,7 +1,7 @@
 import streamlit as st
 from factorial import fact
 def main():
-    st.title('Factorial Calculator (Minh Chau')
+    st.title('Factorial Calculator (Minh Chau)')
     number = st.number_input('Enter a number:',
                              min_value=0,
                              max_value=900)
